@@ -1,5 +1,7 @@
 import { StyleSheet, Text, View } from 'react-native';
 import Header from "./Componentes/Header"
+import FirstFlatList from './Componentes/FirstFlatList';
+import Category from "./Componentes/Flatlists"
 
 export default function Home(){
     return (
@@ -8,10 +10,13 @@ export default function Home(){
             <View style={styles.header}>
                 <Header />
             </View>
-            <View style={styles.flatlist1}></View>
-            <View style={styles.flatlist2}></View>
-            <View style={styles.flatlist3}></View>
-            <View style={styles.flatlist4}></View>
+            <View style={styles.flatlist1}>
+                <FirstFlatList></FirstFlatList>
+            </View>
+            <View style={styles.flatlist2}>
+                <Category></Category>
+            </View>
+
         </View>
     )
 }
@@ -28,23 +33,13 @@ const styles = StyleSheet.create({
     },
 
     flatlist1:{
-        flex: 2,
-        backgroundColor: "green"
+        flex: 1,
+        backgroundColor: "white"
     },
 
     flatlist2:{
-        flex: 2,
-        backgroundColor: "black"
-    },
-
-    flatlist3:{
-        flex: 2,
-        backgroundColor: "blue"
-    },
-
-    flatlist4:{
-        flex: 2,
-        backgroundColor: "pink"
+        flex: 6,
+        backgroundColor: "white"
     },
 
 
