@@ -5,32 +5,32 @@ export default function Spots() {
   const DATA = [
     {
         id: '1',
-        img: require('./assets/Kaos Temple.jpg'),
+        img: require('./Componentes/Recursos/Kaos Temple.jpg'),
         title: "Kaos Temple, Oviedo, España"
     },
     {
       id: '2',
-      img: require('./assets/Skatepark Péitruss.jpg'),
+      img: require('./Componentes/Recursos/Skatepark Péitruss.jpg'),
       title: "Skatepark Péitruss, Luxemburgo"
     },
     {
         id: '3',
-        img: require('./assets/Gratitude Trails,.jpg'),
+        img: require('./Componentes/Recursos/Gratitude Trails,.jpg'),//aqui habia una coma entre el nombre y el punto
         title: "Gratitude Trails, Andros, Grecia."
       },
       {
         id: '4',
-        img: require('./assets/Livingston Skatepark.jpg'),
+        img: require('./Componentes/Recursos/Livingston Skatepark.jpg'),
         title: "Livingston Skatepark, Escocia."
       },
       {
         id: '5',
-        img: require('./assets/Mystic Skatepark.jpg'),
+        img: require('./Componentes/Recursos/Mystic Skatepark.jpg'),
         title: "Mystic Skatepark, Praga, Chequia."
       },
       {
         id: '6',
-        img: require('./assets/THE BLOCK, CALIFORNIA.jpg'),
+        img: require('./Componentes/Recursos/THE BLOCK, CALIFORNIA.jpg'),
         title: "The Block, California"
       },
   ];
